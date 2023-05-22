@@ -8,7 +8,8 @@
 [ссылка на соревнование Kaggle](https://www.kaggle.com/competitions/samokattechworkshop/overview)
 </br>
 </br>
-</br>
+Метрика на public leaderboard 0.74645, private - 0.74380 (3/25)</br>
+(Решение)[]
 Для векторного поиска использовалась библиотека faiss.</br>
 Поиск решения велся с помощью faiss.index_factory с параметрами 'IVF1000, Flat' и nprobe=10, для финализации решения использовался faiss.IndexFlatL2. Предварительно проводилась стандартизация и отбор признаков.</br>
 </br>
